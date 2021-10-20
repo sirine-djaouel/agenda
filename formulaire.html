@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="agenda.css">
+    <title>Formulaire</title>
+</head>
+<body>
+
+
+
+<div class="form">
+
+    <form>
+        <fieldset>
+        <legend>ÉVÈNEMENT</legend>
+    
+        <label for="TITRE">Titre :</label>
+        <input id="Titre" placeholder="Titre de l'évènement"><br>
+    
+        <label for="date">Date :</label>
+        <input type="date" id="start" name="trip-start"
+            value="20-10-2018"> <br>
+        
+        <label for="timing">Choisir l'heure de l'évènement :</label>
+        <input type="time" id="timing" name="time" value="07:00"> <br> <br>
+    
+        <label for="lieu">Lieu :</label>
+        <textarea id="lieu"></textarea> <br>
+    
+    
+        <label for="comments">Description :</label>
+        <textarea id="comments"></textarea> <br> <br>
+    
+    
+        <label for="Recurrence"><input id="Recurrence" type="checkbox" name="Reponse" value="Recurrence">Récurrence</label>
+    </fieldset>
+    
+    
+    <p><input type="submit" value="Soummettre"></p>
+    <p><input type="reset" value="Réinitialiser"></p>
+    
+    <div class="bouton">
+
+        
+    </form>
+
+    <form action="agenda.html">
+        <button class="revenir" type="menu">Revenir à l'agenda</button>
+     </form>
+
+
+</div>
+
+
+</body>
+</html>
